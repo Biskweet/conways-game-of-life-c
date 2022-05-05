@@ -6,7 +6,7 @@ It implements the **[Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game
 
 It uses the console for display, but uses a special block character from the Unicode : `■`. If your terminal does not support it you can just replace the character with any one you want (the hashtag `#` for example) in [`gameoflife.c`](https://github.com/Biskweet/conways-game-of-life-c/blob/main/gameoflife.c).
 
-Maybe I'll later add proper graphics one day.
+Maybe I'll add proper graphics one day.
 
 It also includes a very brain-dead implementation of two patterns: one **oscillator** (a pulsar) and one **spaceship** (a glider) but they are disabled by default, because the random cells initializer breaks it & hence makes it pointless. You can still use it but I recommend disabling the initializer.
 
