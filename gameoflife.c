@@ -27,7 +27,7 @@ void print_world(int** world)
 {
     for (int y = 0; y < SIZEY; y++) {
         for (int x = 0; x < SIZEX; x++) {
-            printf("%s", world[y][x] ? "#" : " ");
+            printf("%s", world[y][x] ? "■" : " ");
         }
         printf("\n");
     }

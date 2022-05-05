@@ -9,9 +9,6 @@
 #define T_WAIT 75000
 
 
-static volatile sig_atomic_t running = 1;
-
-
 int** create_world();
 
 void print_world(int** world);
